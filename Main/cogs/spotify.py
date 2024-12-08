@@ -25,7 +25,7 @@ class SpotifyCog(commands.Cog, name="spotify"):
         self, interaction: discord.Interaction, artist_name: str
     ) -> None:
         # artist_name: The name of the artist to search for.
-        await interaction.response.defer()  # Show processing indicator
+        await interaction.response.defer()
         try:
             results = self.spotify.search(q=f"artist:{artist_name}", type="artist", limit=1)
             if results["artists"]["items"]:
