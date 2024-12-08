@@ -1,7 +1,3 @@
-"""
-Spotify Search Cog for Discord Bot
-"""
-
 import discord
 from discord.ext import commands
 from discord import app_commands
@@ -28,12 +24,7 @@ class SpotifyCog(commands.Cog, name="spotify"):
     async def search_artist(
         self, interaction: discord.Interaction, artist_name: str
     ) -> None:
-        """
-        Search for an artist on Spotify and return their details.
-
-        :param interaction: The command interaction.
-        :param artist_name: The name of the artist to search for.
-        """
+        # artist_name: The name of the artist to search for.
         await interaction.response.defer()  # Show processing indicator
         try:
             results = self.spotify.search(q=f"artist:{artist_name}", type="artist", limit=1)

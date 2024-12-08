@@ -1,1 +1,2 @@
-# spotifyapi
+# spotifyapi 
+Discord Bot
