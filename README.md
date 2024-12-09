@@ -4,7 +4,7 @@ This is a simple discord bot that uses the spotipy library to access the spotify
 /new_releases:'country' will find new album releases in a specific country and list them along with a link. \
 /search_artist:'artist' will create a simple overview of a specific artist along with a link to view their spotify profile.\
 /top_songs:'artist' will find and list 10 of the most popular songs from a specific artist.\
-/trending:'genre' will find 5 trending artist from a specific artist and provide you with a link to view their spotify profile.\
+/trending:'genre' will find 5 trending artist from a specific artist and provide you with a link to view their spotify profile.
 
 showcase video: https://youtu.be/SujW8HFtloA
 
