@@ -1,4 +1,5 @@
 # spotifyapi 
+Group Members: Jason Chen, Fnu Nawidullah \
 This is a simple discord bot that uses the spotipy library to access the spotify web api and run five simple commands. \
 /create_playlist:'artist' will essentially generate a playlist of 10 random songs from any given artist on the spotify website.\
 /new_releases:'country' will find new album releases in a specific country and list them along with a link. \
