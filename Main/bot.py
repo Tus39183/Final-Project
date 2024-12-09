@@ -2,11 +2,13 @@ import os
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from spotipy.oauth2 import SpotifyOAuth
 
 load_dotenv()
 
 intents = discord.Intents.default()
 intents.message_content = True
+
 
 class DiscordBot(commands.Bot):
     def __init__(self) -> None:
